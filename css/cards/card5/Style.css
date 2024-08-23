@@ -1,0 +1,215 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-text {
+    color: blue;
+}
+.card-button {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+.card2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+.card-content2 {
+    padding: 20px;
+}
+.card-title2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-text2 {
+    color: #555;
+}
+.card-button2 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: blue;
+    border-radius: 5px;
+}
+.card-button2:hover {
+    background-color: #0056b3;
+}
+
+/* card 3 */
+.card3 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+.card3 img {
+    width: 100%;
+    height: auto;
+}
+.card-content3 {
+    padding: 20px;
+}
+.card-title3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-text3 {
+    color: #555;
+}
+.class-button3 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: brown;
+    color:white;
+    text-decoration:lightcoral;
+    border-radius: 5px;
+}
+.class-button4 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:brown;
+    color:white;
+    text-decoration:lightcoral;
+    border-radius: 5px;
+}
+.class-button5 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:brown;
+    color:white;
+    text-decoration:lightcoral;
+    border-radius: 5px;
+}
+.class-button3:hover {
+    background-color: #0056b3;
+}
+.class-button4:hover {
+    background-color: #0056b3;
+}
+.class-button4:hover {
+    background-color: #0056b3;
+}
+.card4 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+/* card4 */
+.card4 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+.card4 img {
+    width: 100%;
+    height: auto;
+}
+.card-content4 {
+    padding: 20px;
+}
+.card-title4 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-text4 {
+    color: #555;
+}
+.card-button4 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:blue;
+    color: #fff;
+    text-decoration: white;
+    border-radius: 5px;
+}
+.card-button4:hover {
+    background-color: #0056b3
+}
+
+/* card5 */
+.card5 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+.card5 img {
+    width: 100%;
+    height: auto;
+}
+.card-content5 {
+    padding: 20px;
+}
+.card-title4 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-text5 {
+    color: #555;
+}
+.card-button5 {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:blue;
+    color: #fff;
+    text-decoration: white;
+    border-radius: 5px;
+}
+.card-button5:hover {
+    background-color: #0056b3
+}

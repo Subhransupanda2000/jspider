@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color:skyblue;
+    
+}
+td{
+    border: 1px solid;
+    background-color: rgb(15, 217, 15);
+    
+}
+tr:nth-child(even){
+    background-color: gray;
+    
+
+}
+tr:nth-child(odd){
+    
+    background-color: white;
+}

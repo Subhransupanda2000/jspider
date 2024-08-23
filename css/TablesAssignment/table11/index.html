@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Table with Pseudoclass Selectors</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Pseudoclass to style every other row */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Pseudoclass to style the first row (header) */
+        tr:first-child {
+            background-color: rgb(234, 27, 172);
+            color: white;
+        }
+
+        /* Pseudoclass to style the hover state of rows */
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Pseudoclass to style the first column */
+        td:first-child {
+            font-weight: bold;
+        }
+
+        /* Pseudoclass to style the last column */
+        td:last-child {
+            font-style: italic;
+        }
+
+        /* Pseudoclass to style the responses */
+        td.responses {
+            text-align: center;
+        }
+
+        /* Pseudoclass to style the survey question */
+        td.question {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Response</th>
+            <th>Number of Responses</th>
+        </tr>
+        <tr>
+            <td class="question">How satisfied are you with our service?</td>
+            <td>Very Satisfied</td>
+            <td class="responses">120</td>
+        </tr>
+        <tr>
+            <td class="question">How satisfied are you with our service?</td>
+            <td>Satisfied</td>
+            <td class="responses">90</td>
+        </tr>
+        <tr>
+            <td class="question">How satisfied are you with our service?</td>
+            <td>Neutral</td>
+            <td class="responses">50</td>
+        </tr>
+        <tr>
+            <td class="question">How satisfied are you with our service?</td>
+            <td>Dissatisfied</td>
+            <td class="responses">30</td>
+        </tr>
+        <tr>
+            <td class="question">How satisfied are you with our service?</td>
+            <td>Very Dissatisfied</td>
+            <td class="responses">10</td>
+        </tr>
+        <tr>
+            <td class="question">Would you recommend our service to others?</td>
+            <td>Yes</td>
+            <td class="responses">180</td>
+        </tr>
+        <tr>
+            <td class="question">Would you recommend our service to others?</td>
+            <td>No</td>
+            <td class="responses">20</td>
+        </tr>
+    </table>
+</body>
+</html>

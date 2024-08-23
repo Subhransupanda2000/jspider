@@ -1,0 +1,21 @@
+p::after{
+    content: "welcome";
+    color: yellow;
+    background-color: black;
+}
+p::before{
+    content: "element";
+    color: orange;
+}
+input::placeholder{
+color: orange;
+text-align: center;
+}
+ul li::marker{
+    color: teal;
+    font-size: 5rem;
+}
+p::selection{
+    color: tomato;
+    background: yellow;
+}

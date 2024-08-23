@@ -1,0 +1,12 @@
+div{
+    border: solid black;
+    height: 50px;
+    width: 60px;
+    margin-bottom: 10px;
+    animation: trail 10s infinite;
+}
+
+@keyframes trail {
+to {transform:translateX(400px);
+}
+}

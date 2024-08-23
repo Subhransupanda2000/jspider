@@ -1,0 +1,23 @@
+#img1{
+    height: 158px;
+    width: 210px;
+    display: block;
+    margin: 190px auto 0;
+}
+#img2{
+    height: 30px;
+    width: 50px;
+    display: block;
+    margin: 92px auto 0;
+    position: absolute;
+    bottom: 90px;
+    left: 350px;
+}
+div{
+    border: solid 1px black;
+    background-color: aliceblue;
+    
+}
+#div1{
+position: relative;
+}

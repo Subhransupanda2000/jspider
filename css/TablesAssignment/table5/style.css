@@ -1,0 +1,17 @@
+tr>th{
+    color: yellow;
+    background-color: black;
+    font-family: cursive;
+}
+.tr2>td{
+    color: orange;
+    background-color: aquamarine;
+}
+.tr2+tr{
+    color: green;
+    background-color: gray;
+}
+.tr2~tr{
+    background-color: lightblue;
+    color: blue;
+}

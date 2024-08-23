@@ -1,0 +1,38 @@
+/* /* #clr1
+{
+background-color: orange;
+width: 100%;
+height: 200px;
+} */
+/* #clr2
+{
+width: 100%;
+height: 200px;
+}
+#clr3
+{
+background-color: green;
+width: 100%;
+height: 200px;
+
+}
+.x-1{
+    background-color: red;
+} */
+ /* div p{
+    color: yellow;
+    background-color: black;
+ }
+ h1,h2{
+    color: yellow;
+    background-color: black;
+ } */
+  div>h1{
+    color: yellow;
+    background-color: black;
+  }
+  div>section{
+    color: yellow;
+    background-color: black;
+  }
+ 

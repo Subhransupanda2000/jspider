@@ -1,0 +1,19 @@
+/* div+strong{
+    color: yellow;
+}
+div~strong{
+    background-color: orange;
+    color: yellow;
+}
+.demo+h1{
+    color: blue;
+} */
+ .demo+h1{
+    color: orange;
+ }
+ .demo~strong{
+    color: yellow;
+ }
+ .demo>p{
+    color: blue;
+ }

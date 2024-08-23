@@ -1,0 +1,34 @@
+a:link,a:active,a:visited{
+    color: yellow;
+}
+/* body{
+    background-color: black;
+} */
+p:hover{
+    background-color: yellow;
+    color: white;
+    text-decoration: underline;
+}
+input:focus{
+    color: yellow;
+    background-color: black;
+}
+div p:first-child{
+    color: yellow;
+}
+div p:last-child{
+    color: yellow;
+} 
+div p:nth-child(even){
+    color: yellow;
+}
+button{
+    /* border-width: 5px; */
+    /* border-color: purple; */
+    /* border-style: solid; */
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    /* border-bottom: dashed; */
+    /* border-top-left-radius: 5px; */
+}

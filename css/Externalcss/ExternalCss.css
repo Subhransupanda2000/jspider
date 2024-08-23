@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    background-color: rgb(224, 216, 216);
+    width: fit-content;
+}
+button{
+    color: #ffffa9;
+    color: #765;
+    color: #fde;
+    background-color: blue;
+    border: none;
+    width: 100px;
+    border-radius: 25px;
+    height: 40px;
+}

@@ -1,0 +1,24 @@
+h1
+{
+    color: orange;
+}
+#python
+{
+    color: green;
+}
+#java
+{
+    color: grey;
+    width: fit-content;
+}
+*{
+    color: red;
+    background-color: black;
+}
+#python_details
+{
+    color: yellow;
+}
+.summary{
+    color: hotpink;
+}

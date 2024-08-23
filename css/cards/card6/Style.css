@@ -1,0 +1,19 @@
+#parentdiv{
+    width: 310px;
+    height: 330px;
+}
+#parentdiv{
+    border: 1px solid gray;
+    
+}
+img{
+    border: 5px solid rgb(193, 193, 207);
+    border-radius: 20px;
+}
+#button{
+    border: 5px solid blue;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    
+}

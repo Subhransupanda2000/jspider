@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: grey;
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+td:nth-child(even){
+    border: 1px solid;
+    td:hover{
+        color: antiquewhite;
+    }
+
+}
+td:nth-child(odd){
+    border: 1px solid;
+}

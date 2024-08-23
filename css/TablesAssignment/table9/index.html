@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Table with Pseudoclass Selectors</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Pseudoclass to style every other row */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Pseudoclass to style the first row (header) */
+        tr:first-child {
+            background-color: orange;
+            color: white;
+        }
+
+        /* Pseudoclass to style the hover state of rows */
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Pseudoclass to style the first column */
+        td:first-child {
+            font-weight: bold;
+        }
+
+        /* Pseudoclass to style the last column */
+        td:last-child {
+            font-style: italic;
+        }
+
+        /* Pseudoclass to style the positive percentage changes */
+        td.change-positive {
+            color: gray;
+        }
+
+        /* Pseudoclass to style the negative percentage changes */
+        td.change-negative {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Ticker Symbol</th>
+            <th>Current Price</th>
+            <th>Change (%)</th>
+        </tr>
+        <tr>
+            <td>Apple Inc.</td>
+            <td>AAPL</td>
+            <td>$150.00</td>
+            <td class="change-positive">+1.25%</td>
+        </tr>
+        <tr>
+            <td>Microsoft Corp.</td>
+            <td>MSFT</td>
+            <td>$280.00</td>
+            <td class="change-negative">-0.85%</td>
+        </tr>
+        <tr>
+            <td>Amazon.com Inc.</td>
+            <td>AMZN</td>
+            <td>$3400.00</td>
+            <td class="change-positive">+0.50%</td>
+        </tr>
+        <tr>
+            <td>Google LLC</td>
+            <td>GOOGL</td>
+            <td>$2700.00</td>
+            <td class="change-negative">-1.10%</td>
+        </tr>
+        <tr>

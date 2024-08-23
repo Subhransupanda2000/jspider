@@ -1,0 +1,15 @@
+table,td,tr{
+    border: 1px solid purple;
+    padding: 5px;
+    border-radius: 1px;
+    border-collapse: collapse;
+    
+}
+table{
+    background-color: bisque;
+    color: blue;
+}
+tr:hover{
+    color: yellow;
+    background-color: black;
+}

@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    color: orange;
+    background-color:rgb(53, 49, 49);
+    
+}
+td{
+    color: orange;
+    background-color: rgb(44, 39, 39);
+    
+}
+td:nth-child(even){
+    color: orange;
+    background-color: rgb(20, 19, 19);
+    
+
+}
+td:nth-child(odd){
+    color: orange;
+    background-color: rgb(42, 40, 40);
+}

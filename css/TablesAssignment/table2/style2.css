@@ -1,0 +1,12 @@
+table,td,tr{
+    border: 1px solid #c10996;
+}
+.tr1>td{
+    background-color: black;
+    color: yellow;
+}
+table:hover{
+    background-color: rgb(9, 223, 34);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
